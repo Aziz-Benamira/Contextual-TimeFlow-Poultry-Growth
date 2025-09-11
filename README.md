@@ -32,20 +32,6 @@ It is recommended to use a virtual environment (e.g., `venv` or `conda`).
 git clone https://github.com/your-username/Contextual-TimeFlow-Poultry-Growth.git
 cd Contextual-TimeFlow-Poultry-Growth
 ```
-# Install the required packages
-pip install -r requirements.txt
-requirements.txt should contain:
-torch
-pandas
-numpy
-scikit-learn
-xgboost
-pmdarima
-prophet
-plotly
-kaleido
-matplotlib
-tqdm
 
 
 ### 2. Data Placement
@@ -54,7 +40,9 @@ Due to confidentiality, the raw data is not provided in this repository.
 
 ### 3. Usage: Running the Notebook
 
-Open `main_notebook.ipynb` and execute the cells sequentially. The notebook is structured in logical sections. It is recommended to run them in the following order:
+Open `Timeflow-contextuel_main.ipynb` and execute the cells sequentially. The notebook is structured in logical sections. It is recommended to run them in the following order , 
+The trained models for contexual and without_context versio nare available to avoid re training ( .pt files ) 
+Be careful to Change all the Paths of the datasets and these artefacts ( .pt ) 
 
 
 ## Acknowledgments
